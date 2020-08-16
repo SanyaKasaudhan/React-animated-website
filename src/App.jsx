@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Home';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-
+import Footer from "./Footer"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 import About from './About'
 import Contact from './Contact'
@@ -20,6 +20,7 @@ const App =() =>{
             <Redirect to="/" />
             <Home />
         </Switch>
+        <Footer />
         </>
     )
 }
