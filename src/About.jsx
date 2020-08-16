@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import img1 from '../src/images/img1.jpeg'
+import img1 from '../src/images/about.jpeg'
 import Common from './Common';
 const About =() =>{
     return(
